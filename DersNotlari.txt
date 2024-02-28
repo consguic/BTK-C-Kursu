@@ -1,0 +1,2 @@
+Bilgisayarda Bellek Yapıları
+64 bit işletim sisteminde 8 bayt bir word ediyor.
