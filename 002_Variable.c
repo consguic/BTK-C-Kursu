@@ -6,7 +6,7 @@
 
 //Birinci degisken tipleri
 int a = 10;
-char name = 'a';
+char name = 'a'; //Tek tirnak olmali
 float puan = 0.2;
 double aggressive_puan= 2.1111;
 void ici_bos_degisken(void);
@@ -25,3 +25,8 @@ int main()
 {
     return 0;
 }
+
+/*Degisken tanimlarken betimleyici ve profesyonel yaklasimlara kullanmak faydali olacaktir.
+g_dToplam >> Global double tipi degisken
+unToplam >> Global olmayan unsigned degisken
+
