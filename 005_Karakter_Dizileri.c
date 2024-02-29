@@ -27,5 +27,26 @@ int main()
 	printf("\n...\n");
 	printf("%lu", sizeof(turk_alfabesi2)); //Hafizada kapladigi alani belirtir
 	printf("\n.........\n");	
+
+	char metin1[20] = "Merhaba";
+	char metin2[6] = "Fatma";
+	char metin3[20] ;
+	
+	//metin2'yi metin1'in ucuna ekle (sonuc metin1'de depolanir)
+	strcat(metin1, metin2);
+	printf("%s\n----------\n", metin1);
+	printf("%s\n----------\n", metin2);
+    
+	//Metin1'in içeriğini metin3'e kopyalıyor. Assigmenti böyle yapabiliyoruz.
+	strcpy(metin3, metin2);
+	printf("%s\n----------\n", metin3);
+    
+	//strcmp fonksiyonu iki metin arasindaki karakter farkini dondurur
+	//Simetrik olmayan bir fonksiyondur. Yani sagdan baslayarak kiyaslama yapar.
+	printf("%d\n----------\n", strcmp(metin1, metin3)); //7 
+	printf("%d\n----------\n", strcmp(metin1, metin2)); //7
+	printf("%d\n----------\n", strcmp(metin2, metin1)); //-7
+	printf("%d\n----------\n", strcmp(metin2, metin3)); //0
+    
 	return 0;
 }
