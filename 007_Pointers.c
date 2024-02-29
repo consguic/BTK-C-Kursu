@@ -13,11 +13,11 @@ int main()
 	isaretci = &sayi;
 	
 	printf("Sayi degiskeni;%d\n", sayi);
-    printf("Sayi degiskeninin adresi:%d\n", &sayi);
-    printf("İsaretci degiskeni;%d\n", isaretci);
-    printf("İsaretci degiskeninin adresi:%d\n", &isaretci);
-    printf("İsaretci degiskeninin isaret ettigi deger:%d\n", *isaretci);
-    printf("İsaretci degiskeninin isaret ettigi degerin adresi:%d\n", &*isaretci);
+    	printf("Sayi degiskeninin adresi:%d\n", &sayi);
+	printf("İsaretci degiskeni;%d\n", isaretci);
+    	printf("İsaretci degiskeninin adresi:%d\n", &isaretci);
+    	printf("İsaretci degiskeninin isaret ettigi deger:%d\n", *isaretci);
+    	printf("İsaretci degiskeninin isaret ettigi degerin adresi:%d\n", &*isaretci);
 	
 	int sayi1, sayi2, toplam;
 	int *isaretci1, *isaretci2;
