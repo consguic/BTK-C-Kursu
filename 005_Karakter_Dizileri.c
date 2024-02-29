@@ -5,8 +5,10 @@ int main()
 {
 	char karakter1 = 'a';
 	char karakters[] = "Fatma";
-	char karakters123[] = {'F', 'a', 't', 'm', 'a', '\0'};
+	//Arraylerde gizli sekilde bir \0 karakteri bitirme karakteri olarak bulunur.
+	char karakters123[] = {'F', 'a', 't', 'm', 'a', '\0'}; 
 	printf("%c\n", karakter1 );
+	// \0 kullanmazsak bu arrayi string seklinde yazdirirken hata olabilir.  
 	printf("%lu\n", sizeof(karakters));
 	printf("%lu\n", sizeof(karakters123));
 
